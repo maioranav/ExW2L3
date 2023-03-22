@@ -21,6 +21,8 @@ public class RegistroPresenze {
             for (int e = 0; e < harr.length; e = e + 2) {
                 elenco.put(harr[e], Integer.valueOf(harr[e + 1]));
             }
+            System.out.println("-> Elenco presenze salvate nel file " + f.toString());
+            System.out.println(elenco.toString());
         } else {
             System.out.println("Il file è vuoto!");
         }
@@ -35,13 +37,19 @@ public class RegistroPresenze {
             handle += k + "@" + elenco.get(k) + "#";
         }
 
+        System.out.println("\n-> Elenco presenze aggiornato:");
+        System.out.println(elenco.toString());
+
         scriviFile(f, handle);
+
+        System.out.println("\n-> Elaborazione presenze Completata");
 
     }
 
     public static void scriviFile(File f, String s) {
         try {
             FileUtils.writeStringToFile(f, s, "UTF-8");
+            System.out.println("\n-> Ho scritto i valori sul file" + f.toString());
         } catch (IOException e) {
             e.printStackTrace();
         }
