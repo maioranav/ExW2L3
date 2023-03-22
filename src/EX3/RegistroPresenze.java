@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-public class Main {
+public class RegistroPresenze {
 
     private static String handle = "";
     public static Map<String, Integer> elenco = new HashMap<String, Integer>();
@@ -17,7 +17,10 @@ public class Main {
     public static void main(String[] args) {
 
         if (leggiFile(f) != "") {
-            System.out.println(leggiFile(f));
+            String[] harr = leggiFile(f).split(",");
+            for (int e = 0; e < harr.length; e = e + 2) {
+                elenco.put(harr[e], Integer.valueOf(harr[e + 1]));
+            }
         } else {
             System.out.println("Il file è vuoto!");
         }
