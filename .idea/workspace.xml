@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef168a70-e74f-4d0f-abfa-1f4e76f8f8ce" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/EX1/PrintTimeOuted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EX1/PrintTimeOuted.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EX1/Runnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EX1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EX2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EX2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +19,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,7 +43,8 @@
     "jdk.selected.JAVA_MODULE": "corretto-17",
     "last_opened_file_path": "C:/Users/Vincenzo/Downloads/commons-io-2.11.0-bin.zip",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.sourceCode"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -59,5 +62,9 @@
       <updated>1679474186161</updated>
     </task>
     <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
