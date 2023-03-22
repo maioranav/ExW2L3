@@ -9,16 +9,23 @@ public class Main {
     static ArrayList<Long> somme = new ArrayList<>();
 
     public static void main(String[] args) throws InterruptedException {
+
         for (int i = 0; i < 3000; i++) {
             numeri.add(rand.nextLong(150));
         }
+        
         SommArray t1 = new SommArray(0, 999, numeri);
         SommArray t2 = new SommArray(1000, 1999, numeri);
         SommArray t3 = new SommArray(2000, 2999, numeri);
+
         t1.start();
         t2.start();
         t3.start();
-        Thread.sleep(1000);
+
+        t1.join();
+        t2.join();
+        t3.join();
+
         SommaParziali red = new SommaParziali(somme);
         red.start();
     }
