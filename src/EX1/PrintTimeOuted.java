@@ -1,6 +1,6 @@
 package EX1;
 
-public class PrintTimeOuted implements java.lang.Runnable {
+public class PrintTimeOuted implements Runnable {
     private String str = "STRINGA NON DEFINITA";
     private int loops = 5;
     private int time = 1000;

@@ -1,6 +1,6 @@
 package EX1;
 
-public class Runnable {
+public class Main {
 
     public static void main(String[] args) {
         PrintTimeOuted r1 = new PrintTimeOuted(" * ", 10);
